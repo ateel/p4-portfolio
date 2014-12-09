@@ -101,7 +101,8 @@ body {
       /*Removed weird purple box from bottom of image
       added borders*/
       .item-img {  
-      border: 3px solid;   
+      border: 2px solid;
+    
         
         z-index:0;      
       }
