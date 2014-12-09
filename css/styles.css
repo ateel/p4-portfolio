@@ -1,15 +1,16 @@
-/*changed font to Droid Serif*/
+/*changed font to Droid Serif
+Added background image*/
 
 body {
   font-family: 'Droid Serif', serif;
   font-size:14px;
-  background: url(http://www.queness.com/resources/html/hover-effects/images/bg.gif) repeat;
+  background: url(../img/bg.png);
 }
 
+/*Deleted Container settings to allow for easier addition of new images*/
+
 .container {
-  
   margin: 0 auto;
-  
 }
 
 .item {
@@ -78,13 +79,14 @@ body {
           font-size:12px;
         }
 
-        /*Edited hover color to match style tile*/
+        /*Edited hover color to match style tile
+        adjusted opacity for better readability*/
         
         .item-type-line .item-hover .mask {
           background-color: #007599;
           -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
           filter: alpha(opacity=50);                    
-          opacity:0.5;
+          opacity:0.75;
           z-index:0;
         }
         
@@ -96,7 +98,10 @@ body {
           opacity:1;
         }       
       
-      .item-img {     
+      /*Removed weird purple box from bottom of image
+      added borders*/
+      .item-img {  
+      border: 3px solid;   
         
         z-index:0;      
       }
