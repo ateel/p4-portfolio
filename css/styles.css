@@ -1,12 +1,14 @@
+/*changed font to Droid Serif*/
+
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Droid Serif', serif;
   font-size:14px;
   background: url(http://www.queness.com/resources/html/hover-effects/images/bg.gif) repeat;
 }
 
 .container {
   
-  margin:0 auto;
+  margin: 0 auto;
   
 }
 
@@ -75,9 +77,11 @@ body {
         .item-type-line .item-info .date {
           font-size:12px;
         }
+
+        /*Edited hover color to match style tile*/
         
         .item-type-line .item-hover .mask {
-          background-color:#000;
+          background-color: #007599;
           -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
           filter: alpha(opacity=50);                    
           opacity:0.5;
